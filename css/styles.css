@@ -495,7 +495,7 @@ img {
   background-color: var(--success-color);
 }
 
-/* ----------------------portfolio page  */
+/* ----------------------portfolio page=========  */
 .button-filter {
   background: var(--light-text);
 
@@ -614,7 +614,6 @@ img {
 
 .portfolio-item:hover .cover-text {
   transform: translateY(0%);
-  /* top: 0; */
 }
 
 /* ==================MODAL ==========*/
