@@ -406,9 +406,47 @@
         
           <p class="modal-title">Leave your contacts and we will call you back</p>
           <form class="modal-form">
-            <input type="text" name="user-name" class="modal-input">
+            <div class="modal-item">
+              <label> <span class="input-name">Name</span>
+                <div class="input-wrap">
+                <input type="text" name="user-name" class="modal-input">
+                <svg class="input-icon" width="12" height="12">
+                  <use href="./images/symbol-defs.svg#icon-vector"></use>
+                </svg>
+              </div>
+              </label>
+            </div>
+            
+            <div class="modal-item">  
+          <label>
+            <span class="input-name">Phone</span>
+            <div class="input-wrap">
             <input type="tel" name="phone-number" class="modal-input">
+            <svg class="input-icon" width="13" height="13">
+              <use href="./images/symbol-defs.svg#icon-vector-1"></use>
+            </svg>
+            </div>
+          </label>
+          </div>
+          <div class="modal-item">
+            <label>
+              <span class="input-name">Email</span>
+              <div class="input-wrap">
             <input type="email" name="email" class="modal-input">
+            <svg class="input-icon" width="15" height="12">
+              <use href="./images/symbol-defs.svg#icon-vector-2"></use>
+            </svg>
+            </div>
+            </label>
+          </div>
+            
+          <div class="modal-item">
+            <label>
+              <span class="input-name">Comment</span>
+            <textarea name="user-comment" class="modal-comment" placeholder="Text input"></textarea>
+            </label>
+          </div>
+        
             <button type="submit" class="modal-button">Send</button>
           </form>
         </button>
