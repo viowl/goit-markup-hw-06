@@ -395,12 +395,22 @@
         </div>
       </div>
     </footer>
-    <div class="backdrop is-hidden" data-modal>
+    <div class="backdrop " data-modal>
       <div class="modal">
-        <button type="button" class="modal-close" data-modal-close>
-          <svg class="x" width="8" height="8">
-            <use href="./images/symbol-defs.svg#icon-X"></use>
-          </svg>
+        <div>
+          <button type="button" class="modal-close" data-modal-close>
+            <svg class="x" width="8" height="8">
+              <use href="./images/symbol-defs.svg#icon-X"></use>
+            </svg>
+        </div>
+        
+          <p class="modal-title">Leave your contacts and we will call you back</p>
+          <form class="modal-form">
+            <input type="text" name="user-name" class="modal-input">
+            <input type="tel" name="phone-number" class="modal-input">
+            <input type="email" name="email" class="modal-input">
+            <button type="submit" class="modal-button">Send</button>
+          </form>
         </button>
       </div>
     </div>
