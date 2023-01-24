@@ -395,7 +395,8 @@
         </div>
       </div>
     </footer>
-    <div class="backdrop " data-modal>
+    <!-- ====================MODAL================ -->
+    <div class="backdrop is-hidden" data-modal>
       <div class="modal">
         <div>
           <button type="button" class="modal-close" data-modal-close>
@@ -403,7 +404,7 @@
               <use href="./images/symbol-defs.svg#icon-X"></use>
             </svg>
         </div>
-        
+        <!-- ===============MODAL FORM+++============== -->
           <p class="modal-title">Leave your contacts and we will call you back</p>
           <form class="modal-form">
             <div class="modal-item">
@@ -446,7 +447,18 @@
             <textarea name="user-comment" class="modal-comment" placeholder="Text input"></textarea>
             </label>
           </div>
-        
+          <div>
+            <input type="checkbox" name="privacy" id="privacy" value="true" class="input-check visually-hidden">
+        <label for="privacy" class="check-text">
+          <span>
+            <svg class="check-icon" width="10" height="8">
+              <use href="./images/symbol-defs.svg#icon-v">
+
+              </use>
+            </svg>
+          </span>
+          I accept the terms and conditions of the<a href="#" class="check-link">Privacy Policy</a></label>
+          </div>
             <button type="submit" class="modal-button">Send</button>
           </form>
         </button>
