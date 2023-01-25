@@ -430,7 +430,7 @@ img {
   fill: var(--press-color);
 }
 
-/*-------------- footer */
+/*--------------========= FOOTER==========*/
 
 .footer {
   background-color: var(--dark-color);
@@ -493,6 +493,81 @@ img {
 .footer-link-icon:hover,
 .footer-link-icon:focus {
   background-color: var(--success-color);
+}
+
+/* =================FOOTER FORM============== */
+
+.footer-subscribe {
+margin-left: 80px;
+}
+
+.footer-form {
+  display: flex;
+  margin-top: 16px;
+}
+.subscribe-title {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+
+  margin: 0;
+  letter-spacing: 0.02em;
+
+  color: var(--white-color);
+}
+
+.input-subscribe {
+  width: 264px;
+  height: 40px;
+
+  background-color: transparent;
+  outline: none;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  border-radius: 4px;
+  padding: 8px 0px 8px 16px;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 2;
+
+  letter-spacing: 0.04em;
+
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.footer-button {
+  display: flex;
+  cursor: pointer;
+  background-color: var(--brand-color);
+  border-radius: 4px;
+  border: none;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+
+  color: var(--white-color);
+  fill: var(--white-color);
+
+  padding: 8px 24px;
+}
+
+.button-form {
+  margin-left: 24px;
+}
+.icon-send {
+  margin-left: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 /* ----------------------portfolio page=========  */
