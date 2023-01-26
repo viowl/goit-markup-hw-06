@@ -558,11 +558,10 @@ margin-left: 80px;
   fill: var(--white-color);
 
   padding: 8px 24px;
-}
 
-.button-form {
   margin-left: 24px;
 }
+
 .icon-send {
   margin-left: 16px;
   display: flex;
